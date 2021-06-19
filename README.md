@@ -1,27 +1,24 @@
-# SQL-Challenge
-HP Employee Database
+# HP Employee Database
 
-October 8, 2020
-
-The problem was to develop SQL tables to hold employee data for six CSV files, import the CSVs into a SQL database, and answer questions about the data.
+The purpose of the project was to develop SQL tables to hold employee data for six CSV files, import the CSVs into a SQL database, and provide meaningful insights about the data.
 
 The approach involved using data engineering(modeling)and data analysis techniques. The data was inspected by developing SQL tables in PgAdmin 4.24 version.
 
 After inspecting the employee database in PgAdmin, the database was further inspected and analyzed by using Jupyter Notebook, Pandas, Numpy, Matplotlib.pyplot, and SQLAlchemy.
 
-“PgAdmin is a commonly used database management tool in the PostgreSQL database community. It simplifies the creation, maintenance, and use of database objects by offering a clean and intuitive user interface.”
+â€œPgAdmin is a commonlyÂ usedÂ database management tool in the PostgreSQL database community. It simplifies the creation, maintenance, andÂ use ofÂ database objects by offering a clean and intuitive user interface.â€
 
-“Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. It can be used for data cleaning and transformation, numerical simulation, statistical modeling, and machine learning to name a few of its powerful capabilities. Jupyter Notebook can be used for interactive computing across dozens of programming languages. I used Python.”
+â€œJupyter NotebookÂ is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.Â It can be used for data cleaning and transformation, numerical simulation, statistical modeling, and machine learning to name a few of its powerful capabilities. Jupyter Notebook can be used for interactive computing across dozens of programming languages. I used Python.â€
 
-“NumPy library provides objects for multi-dimensional arrays, whereas Pandas is capable of offering an in-memory 2d table object called DataFrame. NumPy consumes less memory as compared to Pandas.”
+â€œNumPy library provides objects for multi-dimensional arrays, whereasÂ PandasÂ is capable of offering an in-memory 2d table object called DataFrame.Â NumPyÂ consumes less memory as compared toÂ Pandas.â€
 
-“Similar to NumPy, Pandas is one of the most widely used python libraries in data science. It provides high-performance, easy to use structures and data analysis tools.” 
+â€œSimilar toÂ NumPy,Â PandasÂ is one of the most widely used python libraries in data science. It provides high-performance, easy to use structures and data analysis tools.â€ 
 
-“Pandas is a high-level data manipulation tool. It is built on the Numpy package and its key data structure is called the DataFrame. DataFrames allow you to store and manipulate tabular data in rows of observations and columns of variables. Numpy is a fast way to handle large arrays multidimensional arrays for scientific computing (scipy).”
+â€œPandasÂ is a high-level data manipulation tool. It is built on the Numpy package and its key data structure is called the DataFrame. DataFrames allow you to store and manipulate tabular data in rows of observations and columns of variables. NumpyÂ is a fast way to handle large arrays multidimensional arrays for scientific computing (scipy).â€
 
-“Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension  is NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.”
+â€œMatplotlibÂ is a plotting library for theÂ PythonÂ programming language and its numerical mathematics extension  is NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.â€
 
-“SQLAlchemy is a library that facilitates the communication between Python programs and databases. Most of the times, this library is used as an Object Relational Mapper (ORM) tool that translates Python classes to tables on relational databases and automatically converts function calls to SQL statements. SQLAlchemy (source code) is a well-regarded database toolkit and object-relational mapper (ORM) implementation written in Python. SQLAlchemy provides a generalized interface for creating and executing database-agnostic code without needing to write SQL statements.”
+â€œSQLAlchemyÂ is a library that facilitates the communication between Python programs and databases. Most of the times, this library isÂ used asÂ an Object Relational Mapper (ORM) tool that translates Python classes to tables on relational databases and automatically converts function calls to SQL statements. SQLAlchemyÂ (source code) is a well-regarded database toolkit and object-relational mapper (ORM) implementation written in Python.Â SQLAlchemyÂ provides a generalized interface for creating and executing database-agnostic code without needing to write SQL statements.â€
 
 The first step was to create a repository for the project on GitHub and clone the new repository to my computer. A directory(folder) was created to add the completed files at the end of the analysis. 
 
@@ -32,9 +29,3 @@ Second step Data Engineering:
 Third step Data Analysis:
 1.) SQL queries extracted data from tables created above to answer questions posed about the data.
 
-Bonus (Optional)
-
-1.) The SQL HP_employee database was imported into Pandas by using SQLAlchemy. SQLAlchemy allows one to create an engine to communicate with the employee database.
-2.) The username and password created in PostgreSQL (PgAdmin) was used to create the engine for the HP_Employee_db. 
-3.) Pandas (pd.read_sql_query(‘SELECT * FROM Departments’, engine) statements where used to query/verify that the employee database was available for plotting in Matplotlib.
-4.) Matplotlib.pyplot was used because of its interactive visualization capabilities in Python to create the histogram and bar chart for the employee database. The ability to view the plots made it easy to interpret the data.
